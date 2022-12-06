@@ -7,7 +7,8 @@ This is a loosely coupled structure for restapi appilcation using nodejs. For im
 I used OOP and constructor pattern. You can make it much better with your own idea.
 
 Here is a diagram of structure:
-https://user-images.githubusercontent.com/117907109/206020506-464c5a0f-ac2f-4b05-a1fa-afb9f2839fb3.png
+![11111](https://user-images.githubusercontent.com/117907109/206020988-1172006d-c9cf-498e-adaa-8f666ad87d68.png)
+
 
 ## router
 Here router catch the request and send it's conqueen ontroller. The result from controller will be router's response. You can modify the requst or add properties in request. I used express js for routing . Feel free to use Koa or Fastify or you can use your own!
