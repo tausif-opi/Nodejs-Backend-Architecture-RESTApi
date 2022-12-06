@@ -19,11 +19,11 @@ Controller receive request and parse it. Then send it to services. Try to avoid 
 All the business logic, validation, sanitization is in service layer. Service layer communicate with database layer and send response to it's controller. service layer can communicate with it;s own services and also other services. Try to avoid controller invoking in service layer. You can improve or rebuild service layer for your own.
 
 ## database
-In database layer I database will communicate with services. It receive required command from controller and parse it. I used mongoose orm. You can use native driver or other database language as you like. 
+In database layer database will communicate with services. It receive required commands from services, execute commands and send response back . I used mongoose orm. You can use native driver or other database language as you like. 
 
 ### How you can improve this structure?
 1. Restructure pagination parser for narrowing document size.
 2. You can improve get request response structure
 3. You can use json schema for validation and sanitazion 
 4. Divide big utility function to small function. 
-And 1000 of things.
+And thousend of things.
