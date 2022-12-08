@@ -1,4 +1,4 @@
-# nodejs-restapi-structure
+# Nodejs Backend Architecture for RESTApi 
 
 This is a loosely coupled structure for restapi appilcation using nodejs. For implemantation I used express as router and mongodb as database.From receiving request to response the track is.
 ### router --> controller --> service --> database
